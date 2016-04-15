@@ -1,0 +1,16 @@
+﻿Build started 31.7.2015 г. 15:48:12.
+     1>Project "C:\Users\Hristov\documents\visual studio 2013\Projects\411-str C++\411-str C++\411-str C++.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source2.cpp
+         Source2.cpp
+     1>c:\users\hristov\documents\visual studio 2013\projects\411-str c++\411-str c++\source2.cpp(17): error C2143: syntax error : missing ',' before '<'
+                 c:\users\hristov\documents\visual studio 2013\projects\411-str c++\411-str c++\source2.cpp(21) : see reference to class template instantiation 'Sqrt_root<X>' being compiled
+     1>c:\users\hristov\documents\visual studio 2013\projects\411-str c++\411-str c++\source2.cpp(17): error C2504: 'Nu' : base class undefined
+                 c:\users\hristov\documents\visual studio 2013\projects\411-str c++\411-str c++\source2.cpp(27) : see reference to class template instantiation 'Sqrt_root<double>' being compiled
+     1>c:\users\hristov\documents\visual studio 2013\projects\411-str c++\411-str c++\source2.cpp(27): error C2440: 'return' : cannot convert from 'Sqrt_root<double> *' to 'Num<double> *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Done Building Project "C:\Users\Hristov\documents\visual studio 2013\Projects\411-str C++\411-str C++\411-str C++.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42

@@ -1,0 +1,16 @@
+﻿Build started 17.7.2015 г. 15:07:13.
+     1>Project "c:\Users\Hristov\documents\visual studio 2013\Projects\192-str C++\192-str C++\192-str C++.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\hristov\documents\visual studio 2013\projects\192-str c++\192-str c++\source.cpp(6): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\hristov\documents\visual studio 2013\projects\192-str c++\192-str c++\source.cpp(14): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\hristov\documents\visual studio 2013\projects\192-str c++\192-str c++\source.cpp(18): error C2668: 'f' : ambiguous call to overloaded function
+                 c:\users\hristov\documents\visual studio 2013\projects\192-str c++\192-str c++\source.cpp(8): could be 'double f(double)'
+                 c:\users\hristov\documents\visual studio 2013\projects\192-str c++\192-str c++\source.cpp(4): or       'float f(float)'
+                 while trying to match the argument list '(int)'
+     1>Done Building Project "c:\Users\Hristov\documents\visual studio 2013\Projects\192-str C++\192-str C++\192-str C++.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.48
